@@ -1,8 +1,8 @@
 # TrabalhodePI
 Trabalho de Programação Orientada a Objetos: http://abre.ai/clenildon
 
-<h1>Equipe</h1>
-<li><h3>Clenildon</h3></li>
-<li><h3>Joaquim</h3></li>
-<li><h3>Lucas Jonathan</h3></li>
-<li><h3>João Paulo</h3></li>
+<h3>Equipe</h3>
+<li>Clenildon Ferreira</li>
+<li>Joaquim</li>
+<li>Lucas Jonathan</li>
+<li>João Paulo</li>
