@@ -10,7 +10,7 @@ package com.jdenner.to;
  * Eu criei essa classe para guarda os produtos que vão para carrinho de compras
  * usei a logica com objeto
  **/
-public class Itens extends CarrinhoDeCompras {
+public class Itens {
 
     private long codigo;
     private CarrinhoDeCompras carrinhodecompras;
@@ -89,6 +89,14 @@ public class Itens extends CarrinhoDeCompras {
             }
         }
         return false;
+    }
+
+    void removeItens(Itens itens) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    void addItens(Itens itens) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
     
 }

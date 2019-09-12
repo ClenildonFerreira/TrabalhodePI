@@ -1,6 +1,7 @@
 package com.jdenner.to;
 
 import com.jdenner.LojaVitual;
+import java.io.InputStream;
 
 /**
  *
@@ -10,7 +11,7 @@ import com.jdenner.LojaVitual;
 
 /** Classe contendo dados do Produtos**/
 
-public class Produto extends LojaVitual implements ProdutoInterface{
+public class Produto implements ProdutoInterface{
     
     private Long codigo;
     
@@ -21,6 +22,14 @@ public class Produto extends LojaVitual implements ProdutoInterface{
     private double precoVenda;
     
     private int estoque = 0;
+
+    public Produto(InputStream in) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
+    public Produto() {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
    
     public Long getCodigo(){
         return codigo;

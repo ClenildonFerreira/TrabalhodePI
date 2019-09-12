@@ -1,6 +1,5 @@
 package com.jdenner.to;
 
-import com.jdenner.LojaVitual;
 import com.jdenner.to.enums.Situacao;
 import java.util.ArrayList;
 import java.util.Date;
@@ -13,7 +12,7 @@ import java.util.List;
 
 /** Classe contendo dados do Carrinho de compras**/
 
-public class CarrinhoDeCompras extends LojaVitual implements CarrinhoDeComprasInterface {
+public class CarrinhoDeCompras implements CarrinhoDeComprasInterface {
     
     private Long codigo;
     

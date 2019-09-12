@@ -9,7 +9,7 @@ import java.util.Date;
 
 /** Classe contendo os dados do usuario **/
 
-public class Usuario extends LojaVitual implements UsuarioInterface{
+public class Usuario implements UsuarioInterface{
         
     private String nome;
     
